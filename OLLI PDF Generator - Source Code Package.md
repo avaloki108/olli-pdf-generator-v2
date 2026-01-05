@@ -28,7 +28,7 @@ olli-pdf-generator-v2/
 
 ### For Development
 - **Node.js**: v22.13.0 or higher
-- **npm**: 10.9.2 or higher
+- **Package Manager**: npm 10.9.2+ or pnpm 9.0.0+
 - **Operating System**: Windows 10/11, macOS, or Linux
 
 ### For Building Windows Installer
@@ -46,8 +46,16 @@ cd olli-pdf-generator-v2
 
 ### Step 2: Install Dependencies
 
+**With npm:**
+
 ```bash
 npm install
+```
+
+**With pnpm:**
+
+```bash
+pnpm install
 ```
 
 This will install all required packages:
@@ -59,6 +67,8 @@ This will install all required packages:
 
 ### Step 3: Run in Development Mode
 
+**With npm:**
+
 ```bash
 # Build the React app
 npm run build
@@ -67,36 +77,70 @@ npm run build
 npm start
 ```
 
+**With pnpm:**
+
+```bash
+# Build the React app
+pnpm run build
+
+# Start Electron
+pnpm start
+```
+
 The application window will open with the full interface.
 
 ## Available Scripts
 
-### `npm run build`
+### `npm run build` / `pnpm run build`
 Builds the React application using Webpack. Output goes to `dist/` folder.
 
+**npm:**
 ```bash
 npm run build
 ```
 
-### `npm start`
-Starts the Electron application (must run `npm run build` first).
+**pnpm:**
+```bash
+pnpm run build
+```
 
+### `npm start` / `pnpm start`
+Starts the Electron application (must run build first).
+
+**npm:**
 ```bash
 npm start
 ```
 
-### `npm run dist:win`
+**pnpm:**
+```bash
+pnpm start
+```
+
+### `npm run dist:win` / `pnpm run dist:win`
 Builds a Windows installer (.exe file). Output goes to `release/` folder.
 
+**npm:**
 ```bash
 npm run dist:win
 ```
 
-### `npm run dist`
+**pnpm:**
+```bash
+pnpm run dist:win
+```
+
+### `npm run dist` / `pnpm run dist`
 Builds installers for the current platform.
 
+**npm:**
 ```bash
 npm run dist
+```
+
+**pnpm:**
+```bash
+pnpm run dist
 ```
 
 ## Project Structure Explained
@@ -293,15 +337,27 @@ target: 'electron-renderer'  // Optimizes for Electron
 
 ### On Windows
 
+**With npm:**
+
 ```bash
 npm install
 npm run build
 npm run dist:win
 ```
 
+**With pnpm:**
+
+```bash
+pnpm install
+pnpm run build
+pnpm run dist:win
+```
+
 Output: `release/OLLI PDF Generator Setup 2.0.0.exe`
 
 ### On Linux (Cross-compile)
+
+**With npm:**
 
 ```bash
 # Install wine
@@ -313,6 +369,20 @@ sudo apt-get install wine wine32 wine64
 npm install
 npm run build
 npm run dist:win
+```
+
+**With pnpm:**
+
+```bash
+# Install wine
+sudo dpkg --add-architecture i386
+sudo apt-get update
+sudo apt-get install wine wine32 wine64
+
+# Build
+pnpm install
+pnpm run build
+pnpm run dist:win
 ```
 
 ## Troubleshooting
@@ -358,9 +428,18 @@ Edit `src/extracted_locations.json`:
 
 Then rebuild:
 
+**With npm:**
+
 ```bash
 npm run build
 npm run dist:win
+```
+
+**With pnpm:**
+
+```bash
+pnpm run build
+pnpm run dist:win
 ```
 
 ### Option 2: Use Python Script
