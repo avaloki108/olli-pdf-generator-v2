@@ -79,5 +79,4 @@ htmlcov/
 # Compiled binaries
 *.exe
 *.dll
-*.so
 *.dylib
