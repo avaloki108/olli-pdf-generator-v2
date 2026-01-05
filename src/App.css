@@ -1,0 +1,278 @@
+.App {
+  text-align: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.App-header {
+  background-color: #2c3e50;
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.App-header h1 {
+  margin: 0;
+  font-size: 28px;
+}
+
+.manage-locations-btn {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.manage-locations-btn:hover {
+  background-color: #2980b9;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.form-section {
+  background: white;
+  border-radius: 8px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.form-section h2 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.dropdown-container {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.dropdown-container select {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  background-color: white;
+  cursor: pointer;
+}
+
+.dropdown-container span {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.entry-item {
+  background: #f9f9f9;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.entry-item h3 {
+  color: #34495e;
+  margin-bottom: 15px;
+}
+
+.entry-item input,
+.entry-item select,
+.entry-item textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.entry-item textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+button {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #229954;
+}
+
+button.delete-btn {
+  background-color: #e74c3c;
+}
+
+button.delete-btn:hover {
+  background-color: #c0392b;
+}
+
+button.reset-btn {
+  background-color: #f39c12;
+}
+
+button.reset-btn:hover {
+  background-color: #d68910;
+}
+
+button.import-btn {
+  background-color: #9b59b6;
+}
+
+button.import-btn:hover {
+  background-color: #8e44ad;
+}
+
+/* Location Manager Styles */
+.location-manager {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.location-manager h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.location-count {
+  color: #7f8c8d;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.location-form {
+  background: white;
+  border-radius: 8px;
+  padding: 25px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.location-form h3 {
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
+.location-form input,
+.location-form textarea {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+.location-form textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.form-buttons {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-start;
+}
+
+.location-actions {
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+.location-list {
+  background: white;
+  border-radius: 8px;
+  padding: 25px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.location-list h3 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.location-item {
+  background: #f9f9f9;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.location-info {
+  flex: 1;
+  text-align: left;
+}
+
+.location-info h4 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.location-info p {
+  color: #555;
+  margin: 5px 0;
+  line-height: 1.6;
+}
+
+.location-item .location-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 0;
+}
+
+.location-item button {
+  min-width: 80px;
+  margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .App-header {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .location-item {
+    flex-direction: column;
+  }
+
+  .location-item .location-actions {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .location-item button {
+    flex: 1;
+  }
+}

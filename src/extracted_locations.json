@@ -1,0 +1,758 @@
+[
+  {
+    "location": "(East) Harvard Gulch",
+    "address": "550 East Iliff Avenue",
+    "town": "Denver",
+    "comments": "5.1 mile out and back -- end point is Colorado Boulevard YMCA - walking by several parks",
+    "meetingNotes": "Harvard Gulch Recreastion Center parking lot"
+  },
+  {
+    "location": "Abyss Lake via Abyss Lake Trail",
+    "address": "Geneva Road/Guanella Pass Road",
+    "town": "Grant",
+    "comments": "Bathrooms open summer.  Highway 285 to Grant.  Turn right on Geneva Road/Guanella Pass Road.  Parking is 5.2 miles in",
+    "meetingNotes": "Meet at King Soopers, 3495 South University Boulevard, Englewood"
+  },
+  {
+    "location": "Alderfer/Three Sisters - East Trailhead",
+    "address": "30357 Buffalo Park Road",
+    "town": "Evergreen",
+    "comments": "Trail: Mountain Muhly, Bearberry, Sisters, Ponderosa, Silver Fox for 5.4 miles.",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Alderfer/Three Sisters - West Trailhead",
+    "address": "31677 Buffalo Park Rd",
+    "town": "Evergreen",
+    "comments": "Closed until January 2026 for maintenance",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Apex Park",
+    "address": "121 CO Road 93",
+    "town": "Golden",
+    "comments": "Restrooms.  6th Ave West to Highway 40 (left on Colfax), sharp right on Heritage Road (green sign), IMMEDIATE left at Apex Park sign to parking lot.  Odd calendar days for hikers.",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Barr Lake",
+    "address": "3401 Picadilly Road",
+    "town": "Brighton",
+    "comments": "Restrooms.  I-25 to highway 76 east, to Bromley Lane/152nd Avenue.  East on 152nd, right on Picadilly - State Park Pass or $9 per car - 8.8 mi loop, Southwest out and back",
+    "meetingNotes": "(with Karen and Amy, Oct '24)  long drive, lake significantly drained, few small birds only"
+  },
+  {
+    "location": "Bear Creek Greenbelt",
+    "address": "2800 South Estes Street",
+    "town": "Lakewood",
+    "comments": "Restrooms.  I-25 to 6th Avenue, south on Wadsworth to West Yale, South on West Estes",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Bear Creek Lake Park",
+    "address": "15600 West Morrison Road",
+    "town": "Lakewood",
+    "comments": "Restrooms.  6.6 miles, 564 ft elevation gain.  $5 entry for seniors",
+    "meetingNotes": "visitors center parking lot"
+  },
+  {
+    "location": "Belmar Park",
+    "address": "801 South Yarrow Street",
+    "town": "Lakewood",
+    "comments": "Porta potty.  Walk 2 times around each inner and outer loops",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Bible Park",
+    "address": "6796 East Yale Avenue",
+    "town": "Denver",
+    "comments": "Seasonal restroom, porta potty in winter",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Bluffs Regional Park",
+    "address": "10099 Crooked Stick Trail",
+    "town": "Lone Tree",
+    "comments": "Porta potty.",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Bolder Boulder",
+    "address": "",
+    "town": "Boulder",
+    "comments": "",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Breckenridge - Burro Trail",
+    "address": "620 Village Rd (Beaver Run address)",
+    "town": "Breckenridge",
+    "comments": "Restrooms",
+    "meetingNotes": "Beaver Run parking lot is on your left just before the resort.  $15 parking fee"
+  },
+  {
+    "location": "Broncos Parkway",
+    "address": "16400 East Broncos Parkway",
+    "town": "Centennial",
+    "comments": "Porta potty.",
+    "meetingNotes": "Shared entrance with Tagawa Gardens"
+  },
+  {
+    "location": "Brookside McCurdy Trail",
+    "address": "",
+    "town": "Bailey",
+    "comments": "No restrooms. Use restrooms at King Soopers (25637 Conifer Rd).  Estimate 50 minutes of drive time.   From Highway 285 in Bailey, turn onto Park County Road 64.  Drive 2.1 miles to trailhead.",
+    "meetingNotes": "Meet at King Soopers, 3495 S University Boulevard, Englewood"
+  },
+  {
+    "location": "Button Rock Dam via Sleepy Lion Trail",
+    "address": "CO Highway 80/Longmont Dam Rd",
+    "town": "Lyons",
+    "comments": "If at reservoir/Chimney Rock Dam on CO hwy 80 -- then too far.  Drive is 1 3/4 hrs 5.1 mile loop.",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Caribou Ranch Trail",
+    "address": "",
+    "town": "Nederland",
+    "comments": "6th Ave to Highway 93 north. Colorado Road 26 (0.9 mi)",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Carson Nature Center",
+    "address": "3000 West Carson Drive",
+    "town": "Littleton",
+    "comments": "North of Mineral, West of Sante Fe - walking along the South Platte River, lakes",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Centennial Cone Park - Ralph Schell Trailhead",
+    "address": "2224 Douglas Mountain Drive",
+    "town": "Golden",
+    "comments": "I-25 to 6th Avenue, to Douglas Mountain Drive (28.7 miles) to Centennial Cone Drive (1.6 miles)",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Chapman Drive and Tenderfoot",
+    "address": "2520 55th Street",
+    "town": "Boulder",
+    "comments": "No restrooms.  May stop beforehand at King Soopers - Table Mesa Drive and Highway 93",
+    "meetingNotes": "Golden Gate Canyon Road and Highway 93"
+  },
+  {
+    "location": "Charauqua Park",
+    "address": "900 Baseline Road",
+    "town": "Boulder",
+    "comments": "Restrooms.  Meet at Ranger's Cottage, 1st building",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Cherry Creek State Park",
+    "address": "East Belleview Avenue & South Jamaica Way",
+    "town": "Englewood",
+    "comments": "Restrooms within park.",
+    "meetingNotes": "Park on South Jamaica Way just south of East Belleview Avenue"
+  },
+  {
+    "location": "Cherry Creek Trail",
+    "address": "",
+    "town": "Denver",
+    "comments": "",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Chief Mountain",
+    "address": "",
+    "town": "Evergreen",
+    "comments": "West on I-70 to Evergreen Parkway (#252, route 74), 3 miles to Squaw Pass Road (Hwy 103), right 12 miles to mile marker 19, pullout on right - only 2.8 miles, out-back",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Colorado Trail",
+    "address": "182 Copper Circle",
+    "town": "Copper Mountain",
+    "comments": "I-70 to Exit 195",
+    "meetingNotes": "meet at T-REX park-n-ride"
+  },
+  {
+    "location": "Colroado Trail",
+    "address": "Kenosha Pass",
+    "town": "N.E. of Fairplay",
+    "comments": "Restrooms.   34 miles on Highway 285, park on left.  This is Segment 5 of the CO Trail",
+    "meetingNotes": "912 S Emerson Street"
+  },
+  {
+    "location": "Confluence Park",
+    "address": "",
+    "town": "Denver",
+    "comments": "",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Crown Hill Park",
+    "address": "9357 West 26th Avenue",
+    "town": "Wheatridge",
+    "comments": "Restrooms.",
+    "meetingNotes": "from 26th and Kipling, drive east to 2nd parking lot"
+  },
+  {
+    "location": "Dahlia Hollow",
+    "address": "4193 South Dahlia Street",
+    "town": "Englewood",
+    "comments": "No restrooms.  Street parking.",
+    "meetingNotes": "Street parking"
+  },
+  {
+    "location": "Dakota Ridge Trail",
+    "address": "",
+    "town": "Golden",
+    "comments": "I-70 to Morrison exit (#259, Route 93), left at offramp, quick left into parking lot. 5.4 miles, 1,099 elev gain",
+    "meetingNotes": "ROCKY ???"
+  },
+  {
+    "location": "Dawson Butte Trail",
+    "address": "1753 Tomah Rd",
+    "town": "Castle Rock",
+    "comments": "<openpyxl.worksheet.formula.ArrayFormula object at 0x7f651cfe0e50>",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Deer Creek Canyon Park - Meadowlark and Plymouth Creek Trails",
+    "address": "13388 Grizzly Drive",
+    "town": "LIttleton",
+    "comments": "Restrooms.  Santa Fe south to 470, exit at South Kipling (#12), right on West Ute (road curves into) West Deek Creek Canyon, left on Grizzly Drive",
+    "meetingNotes": "counter clockwise - Meadowlark up and Plymouth Creek down"
+  },
+  {
+    "location": "deKoevend Park",
+    "address": "6301 South University Avenue",
+    "town": "Centennial",
+    "comments": "Restrooms.",
+    "meetingNotes": "Parking lot on Univesity Blvd between Goodson Recreation Center Drive and Arapahoe Road"
+  },
+  {
+    "location": "Denver City Park",
+    "address": "2001 Colorado Boulevard",
+    "town": "Denver",
+    "comments": "Perimeter = 2.9 miles, 2* around or add interior paths",
+    "meetingNotes": "Museum of Nature and Science"
+  },
+  {
+    "location": "Dupont Park",
+    "address": "8020 Main Street",
+    "town": "Louviers - 80131",
+    "comments": "Restroom at baseball field.",
+    "meetingNotes": "Plum Creek Trail"
+  },
+  {
+    "location": "Echo Lakes Trail",
+    "address": "",
+    "town": "Idaho Springs",
+    "comments": "",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Eisenhower Park",
+    "address": "4300 East Dartmouth Avenue",
+    "town": "Denver",
+    "comments": "Restrooms.",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Elk Meadow Park - Lewis Ridge Trailhead",
+    "address": "2855 Bergen Peak Drive",
+    "town": "Evergreen",
+    "comments": "Restrooms.  I-70 to Evergreen (#252, Hwy 74), travel 2.25 miles to Lewis Ridge Road, right into park.  Trailhead address is 2855 Bergen Peak Drive",
+    "meetingNotes": "T-Rex Park-n-Ride.  I-70 to Exit 259, right off exit, next right into lot"
+  },
+  {
+    "location": "Evergreen Mountain",
+    "address": "30357 Buffalo Park Road",
+    "town": "Evergreen",
+    "comments": "Restrooms.   1,000+ elev gain.  Mountain Muhly, Bearberry, Sisters, Ponderosa, Silver Fox Trails",
+    "meetingNotes": "To carpool - T-Rex Park-n-Ride.  I-70 to Exit 259, right off exit, next right into lot"
+  },
+  {
+    "location": "Fairmount Cemetery",
+    "address": "430 South Quebec Street",
+    "town": "Denver",
+    "comments": "Restrooms (in visitor's center).",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Fly'n B Park",
+    "address": "2910 Plaza Drive",
+    "town": "Highlands Ranch",
+    "comments": "Porta potty.  West on High Line Canal to Santa Fe, then return.",
+    "meetingNotes": "meet at King Soopers, 3495 South University Avenue"
+  },
+  {
+    "location": "Four Mile House",
+    "address": "715 South Forest Street",
+    "town": "Denver",
+    "comments": "",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Fowler Goshawk Ridge and Spring Brook Loop",
+    "address": "321 El Dorado Springs Drive",
+    "town": "Boulder",
+    "comments": "No restroom.  Hwy 6 to Hwy 93 North (Golden).  Left on I-70, left on 67 (yoga ashram).  Parking along road.",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Gateway Mesa Open Space - Chuck Loop and Mitchell Creek Canyon Loop",
+    "address": "4678 Colorado 86",
+    "town": "Castle Rock",
+    "comments": "I-25 south to Founders Pkwy (#184), east 4.4 miles, left on route 86 for 2 miles, right into dirt trailhead lot",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Genessee - Chavez and Beaver Brook Loop",
+    "address": "27448 Stapleton Drive",
+    "town": "Genesee Park",
+    "comments": "Exit 253, North side of I-70, Exit north, cross I-70, first left to park.              Counter-clockwise gentler hike.",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Genessee - Patrick House Trail",
+    "address": "27460 Genesee Lane",
+    "town": "Genesee Park",
+    "comments": "Restrooms.  Chief Hosa exit - #253, then left over I-70, then left at each of 2 \"Y\" intersections.  Follow road to parking lot at end.",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Golden Gate Canyon State Park",
+    "address": "92 Crawford Gulch",
+    "town": "Golden",
+    "comments": "Restrooms",
+    "meetingNotes": "meet at parking lot - Golden Gate Canyon Road and Hwy 93"
+  },
+  {
+    "location": "Green Mounain Trail",
+    "address": "15085 West Alameda Parkway",
+    "town": "Lakewood",
+    "comments": "Restrooms",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Greenbelt Plateau",
+    "address": "on Hwy 128 just east of intersection with Hwy 93",
+    "town": "Boulder",
+    "comments": "Highway 36 to Highway 128 (Broomfield), Highway 128,  8.4 miles to trailhead (parking on north side)",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Greenland Open Space - Greenland Trail Loop",
+    "address": "1532 East Noe Road",
+    "town": "Larkspur",
+    "comments": "I25 south to Greenland exit (167), right on Greenland Road, road curves, go 0.8 miles to trailhead.  If railroad tracks - too far.",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Hidden Mesa Trail",
+    "address": "3217 North State Highway 83",
+    "town": "Castle Rock",
+    "comments": "I25 South to Lincoln, East on Ridgegate Parkway, South on Chambers, East on Hess, South on Hwy 83 (5.8 miles to entrance on right)",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Highline Canal",
+    "address": "1695 E Orchard Road",
+    "town": "Littleton",
+    "comments": "No restrooms.",
+    "meetingNotes": "just west of South University Blvd                              Park in the Community of Christ lot"
+  },
+  {
+    "location": "Hudson Gardens",
+    "address": "6115 South Santa Fe Drive",
+    "town": "Littleton",
+    "comments": "Restrooms.  Walking south on the Mary Carter Greenway Trail - nice fall foilage! (early October)",
+    "meetingNotes": "Enter Hudson Gardens - turn into the right parking lot"
+  },
+  {
+    "location": "Jefferson and Monroe",
+    "address": "Jefferson Ave and Monroe St",
+    "town": "Cherry Hills Village",
+    "comments": "No restrooms",
+    "meetingNotes": "1 block South of Hampden Ave & 1 block West of Colorado Boulevard.   Street parking on Monroe."
+  },
+  {
+    "location": "Kent Denver",
+    "address": "4000 East Quincy Avenue",
+    "town": "Denver",
+    "comments": "No restrooms.  Left turn at the roundabout to parking lot.  HOLIDAYS ONLY",
+    "meetingNotes": "Meet in the upper parking lot."
+  },
+  {
+    "location": "Lake Isabella via Pawnee Pass Trail",
+    "address": "Brainard Lake Road",
+    "town": "Ward",
+    "comments": "Vault toilets.  Parking is $16, must reserve in advance",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Lakewood Gulch and Dry Gulch Trails",
+    "address": "W 13th and King St",
+    "town": "Lakewood",
+    "comments": "North on I-25, west on 6th, north on Tennyson, East (right) on 12th - Parking on King St at 12th Ave",
+    "meetingNotes": "urban, concrete"
+  },
+  {
+    "location": "Lee Gulch Trail (S Platte)",
+    "address": "8000 South Corona Street",
+    "town": "Littleton",
+    "comments": "8.1 miles, out and back, concrete (better for biking)",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Little Scraggy Peak Trail",
+    "address": "Intersection of Deckers Road and Redskin Creek Road",
+    "town": "Pine",
+    "comments": "Restroom.  Highway 285 to Pine Valley Road and Deckers Road (#126).  Just after intersection with Road #550, (13.7 mi) right into parking lot for Colorado Trail access.  Trailhead on the West side of Deckers Rd @ intersection of Forest Service Road 550. (20725 Forest Road).   Parks pass or $$",
+    "meetingNotes": "Meet at King Soopers, 3495 S University Boulevard, Englewood"
+  },
+  {
+    "location": "Location",
+    "address": "Street Address",
+    "town": "Town",
+    "comments": "Comments",
+    "meetingNotes": "Meeting Location"
+  },
+  {
+    "location": "Longs Pine Grove",
+    "address": "1523 South Uinta Way",
+    "town": "Denver",
+    "comments": "Restrooms.",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Lowry - Sports Park",
+    "address": "8200 East Sports Boulevard",
+    "town": "Denver",
+    "comments": "2.5 mile loop (*2)",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Matthews Winters Park",
+    "address": "1103 County Highway 93",
+    "town": "Golden",
+    "comments": "Restrooms.  West on 6th Ave to I-70, I-70 to Morrison exit, south on Highway 93 for 1/10 mile, trailhead on right",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Maxwell Falls Bluffs Cliffside Trail",
+    "address": "7627 S. Brook Forest Rd",
+    "town": "Conifer",
+    "comments": "Hwy 285 to Barkley Rd in Aspen Park, right on Road # 73, left on S Blue Creek Rd, left at dead end on S Brook Forest Rd",
+    "meetingNotes": "ROCKY ???"
+  },
+  {
+    "location": "Mayhem Gulch and Juniper Loop Trail",
+    "address": "32447 Highway 6",
+    "town": "Golden",
+    "comments": "Vault toilets.   Open for hiking June and later.  Odd calendar days for hiking.",
+    "meetingNotes": "Highway 6 to intersection of Highway 6 and Highway 93.  Left turn onto 6 for 9.5 miles, trailhead between mileage markers 262.5 and 262 - minimal shade, wildflowers"
+  },
+  {
+    "location": "Mestaa 'Ehehe Pass Trail  (formerly Squaw Pass)",
+    "address": "24 Pine Valley Road                 (aka 25 Colorado Road 170, formerly 17 Old Squaw Pass Road)",
+    "town": "Evergreen",
+    "comments": "No restrooms.  For restrooms stop at King Soopers, 1173 Bergen Pkwy, Evergreen.   Highway 74 to the 2nd intersection of Squaw Pass Road and Old Squaw Pass Road.",
+    "meetingNotes": "T-Rex Park-n-Ride.  I-70 to Exit 259, right off exit, next right into lot"
+  },
+  {
+    "location": "Meyer Ranch",
+    "address": "10490 S Turkey Creek Road",
+    "town": "Morrison",
+    "comments": "Restrooms.",
+    "meetingNotes": "Meet at King Soopers, 3495 S University Boulevard, Englewood"
+  },
+  {
+    "location": "Mount Falcon Park - East Trailhead",
+    "address": "3852 Vine Street",
+    "town": "Morrison",
+    "comments": "Restrooms.  Castle Trail",
+    "meetingNotes": "Meet at King Soopers, 3495 S University Boulevard, Englewood"
+  },
+  {
+    "location": "Mount Falcon Park - West Trailhead,",
+    "address": "21074 Mount Falcon Road",
+    "town": "Indian Hills",
+    "comments": "Restrooms on trail.  Upper Loop (Castle Trail)",
+    "meetingNotes": "Meet at King Soopers, 3495 S University Boulevard, Englewood"
+  },
+  {
+    "location": "Mt Galbraith",
+    "address": "21992 Golden Gate Canyon Road",
+    "town": "Golden",
+    "comments": "West on 6th Avenye, North on Highway 93, left on Golden Gate Canyon Road",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Myer Ranch Park",
+    "address": "10490 South Turkey Creek Road",
+    "town": "Morrison",
+    "comments": "",
+    "meetingNotes": "Meet at King Soopers, 3495 S University Boulevard, Englewood"
+  },
+  {
+    "location": "OLLI HIKES",
+    "address": "",
+    "town": "",
+    "comments": "",
+    "meetingNotes": ""
+  },
+  {
+    "location": "OLLI WALKS",
+    "address": "",
+    "town": "",
+    "comments": "",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Orchard - North",
+    "address": "4010 East Orchard Road",
+    "town": "Greenwood Village",
+    "comments": "Restrooms.  Two options - hike to the north",
+    "meetingNotes": "the parking lot is on the north side of Orchard St across from the conservancy at 4010 E Orchard"
+  },
+  {
+    "location": "Orchard - South",
+    "address": "4010 East Orchard Road",
+    "town": "Greenwood Village",
+    "comments": "Restrooms.  Two options - hike to the south",
+    "meetingNotes": "the parking lot is on the north side of Orchard St across from the conservancy at 4010 E Orchard"
+  },
+  {
+    "location": "Palmer Divide Ranch Trail",
+    "address": "7499, 7907 Jones Road",
+    "town": "Larkspur",
+    "comments": "I-25 south to exit 167, exit and travel east to East Best Road, Travel south and east for 5.4 miles.  Left on Jones Road.   4.5 mile loop.  Additional 4.2 miles for Linoln Mountain Trail (400 feet elevation gain)",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Panorama Point",
+    "address": "25338 Bear Creek Road        (Highway 74)",
+    "town": "Evergreen",
+    "comments": "Restrooms along Highway 74 approx 1 mile before trailhead.    Meadow View Loop, Bear Creek Trail",
+    "meetingNotes": "T-Rex Park-n-Ride.  I-70 to Exit 259, right off exit, next right into lot"
+  },
+  {
+    "location": "Peak 8 Forest Service Trail",
+    "address": "1979 Skil Hill Rd - C",
+    "town": "Breckenridge",
+    "comments": "I-70 to Exit 203.  Highway 9 to Breckenridge. Right on Ski Hill Road (stop light). Go to top of Ski Hill Rd towards Peak 8. Just past the Peak 8 base area turn right and go past Grand Timber Lodge. The trailhead will be on your left",
+    "meetingNotes": "This property address is just before the trailhead."
+  },
+  {
+    "location": "Perimeter Trail",
+    "address": "623 Recreation Way",
+    "town": "Frisco",
+    "comments": "Restrooms.",
+    "meetingNotes": "meet at T-REX carpool parking lot, exit 259 off I-70"
+  },
+  {
+    "location": "Pine Valley Ranch Park",
+    "address": "30400 Crystal Lake Road",
+    "town": "Pine",
+    "comments": "Restrooms.  Hwy 285 to stoplight in Pine.  Left turn at light onto Pine Valley Rd (5.9 miles) to Crystal Lake Rd (1 mile to trailhead).  Park View, Strawberry Jack, Pine Lake Loop",
+    "meetingNotes": "Meet at King Soopers, 3495 S University OR Starbucks, 1005 El Rancho, Evergreen"
+  },
+  {
+    "location": "Pronghorn Park (East-West Trail)",
+    "address": "10557 Weathersfield Way",
+    "town": "Highlands Ranch",
+    "comments": "Restrooms.  Fabulous views of the entire front range, some ups and downs, nothing strenuous",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Reynolds Park",
+    "address": "13649 South Foxton Road",
+    "town": "Connifer",
+    "comments": "Oxen Draw, Eagle’s View, Raven’s Roost trails",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Ridgeline Trail - eastern loops",
+    "address": "2525 Coachline Road",
+    "town": "Castle Rock",
+    "comments": "I-25 south to Wolfenberger/Wilcox (#182), west on Wolfenberger 1.5 miles, right on Coachline Road 1/2 mile, on left - no shade",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Ridgeline Trail - western loops",
+    "address": "Bison Park - 1390 Clear Sky Way",
+    "town": "Castle Rock",
+    "comments": "I-25 south to Wolfenberger/Wilcox (#182), west on Wolfenberger 1.5 miles, right on Coachline Road 1.2 miles.  Left on Foothills, left on Clear Sky Way to Bison Park (trailhead)",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Rocky Flats",
+    "address": "10801 SH 93",
+    "town": "recre",
+    "comments": "From Hwy 36, take Wadsworth exit, left onto Interlocken Loop/Wadsworth Pky (0.4 mi), right onto CO-128/W. Interlocken Loop.  Continue oon Interlocken Loop which turns into W. 120th.  Take Wst 120th to the Refuge main entrance.  Doudy Draw and Flatirons Vista Loop  NO SHADE, BORING",
+    "meetingNotes": "street parking @ 912 S Emerson St."
+  },
+  {
+    "location": "Rocky Mountain Arsenal",
+    "address": "6550 Gateway Road",
+    "town": "Commerce City",
+    "comments": "Restrooms.",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Rolling Creek Trail",
+    "address": "CO Road 68",
+    "town": "Bailey",
+    "comments": "Highway 285 to just before Bailey, turn left at Wellington Lake Rd  (CO #68) go approx 8 miles to Colorado Trail head parking lot on right.  This is Segment 4 of the Colorado Trail.",
+    "meetingNotes": "Meet at King Soopers, 3495 S University Blvd, Englewood"
+  },
+  {
+    "location": "Roxborough State Park - Carpenter Peak",
+    "address": "4751 Roxborough Drive",
+    "town": "Littleton",
+    "comments": "Fountain Loop (2.6 mi), South Rim and Willow Creek (2.8 mi)",
+    "meetingNotes": "Meet at King Sooper 3495 S University Blvd, Englewood"
+  },
+  {
+    "location": "Roxborough State Park - Sharptail Ridge",
+    "address": "6500 North Roxborough Park Road",
+    "town": "LIttleton",
+    "comments": "Hwy 85 to Titan Pkwy. West on Titan Pkwy approx 2 miles to Roxborough Park Road.  Turn left (south) approx 3.7 miles (gravel).  Trailhead on left",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Sandstone Ranch Trail",
+    "address": "9605 South Parry Park Road",
+    "town": "Larkspur",
+    "comments": "2 loops",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Shadow Canyon Loop",
+    "address": "3633 El Dorado Springs Drive",
+    "town": "Boulder",
+    "comments": "Meet at 912 South Emerson, street parking.  South Mesa Trailhead. Homestead and Mesa Trails.  Trailhead at 3633 Shadow Canyon Drive",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Shadow Pine Loop",
+    "address": "27323 Colorado Road 78",
+    "town": "Conifer",
+    "comments": "Restrooms.  Trailhead just past Aspen Peak.  Junction House Trail to Shadow Pine Loop",
+    "meetingNotes": "meet at King Soopers, 3495 South  University Avenue"
+  },
+  {
+    "location": "Sharptail Ridge Trail",
+    "address": "6500 North Roxborough Road",
+    "town": "Littleton",
+    "comments": "South on Highway 85 to Titan Parkway, west on Titan Parkway 2 miles to Roxborough Park Road, left turn onto gravel road 3.7 miles, trailhead on left",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Sloan’s Lake",
+    "address": "4700 West Byron Place",
+    "town": "Denver",
+    "comments": "Restrooms.  Parking lot on north side of park - entrance is opposite Wolff and Oak Streets",
+    "meetingNotes": "West Byron Place and Wolff Street"
+  },
+  {
+    "location": "South Valley Park",
+    "address": "12447 West Deer Creek Canyon",
+    "town": "Indian Hills",
+    "comments": "Restrooms.   Trails:  Coyote Song,Columbine, Cathy Johnson, Valley View Loop",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Spruce Meadows Trail",
+    "address": "S Spruce Mountain Road",
+    "town": "Larkspur",
+    "comments": "I-25 south to Greenland exit (167), west 1/4 mile, south 1/2 mile, bypass Greenland trailhead, gravel road (Noe) over 2 sets of railroad tracks, on right - 7.5 miles, other options",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Spruce Mountain Trail",
+    "address": "13415 Spuce Mountain Road",
+    "town": "Larkspur",
+    "comments": "Porta potty.  About 6 miles south of Larkspur",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Square Top Lake Trail",
+    "address": "",
+    "town": "Georgetown",
+    "comments": "I-70 to Georgetown exit (#228).  Follow signs to Guanella Pass.  Parking lot at top of Gualellan Pass.  4.3 miles at 11,500 feet.  Gain is 1,000 feet.  No shade.",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Staunton State Park",
+    "address": "12102 South Elk Creek Road",
+    "town": "Pine",
+    "comments": "Restrooms.  Staunton Ranch Trail (from older parking lot) or Elk Pond Trail from (new) Lazy V Lot",
+    "meetingNotes": "Meet at King Sooper 3495 South University Boulevard, Englewood or meet onsite at the park Visitor's Center Lot (approx 45 minutes later than in-town meeting time)"
+  },
+  {
+    "location": "Three Mile Creek Trail",
+    "address": "Geneva Road/Guanella Pass Road",
+    "town": "Grant",
+    "comments": "Bathrooms open in summer.  Highway 285 to Grant.  Turn right on Geneva Road/Guanella Pass Road.  Parking is 2.4 miles in",
+    "meetingNotes": "Meet at King Soopers, 3495 South University Boulevard, Englewood"
+  },
+  {
+    "location": "Turkey Trot",
+    "address": "Washington Park",
+    "town": "Denver",
+    "comments": "",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Upper Mt Falcon",
+    "address": "21974 Mount Falcon Road",
+    "town": "Indian Hills",
+    "comments": "Restrooms.  Walk to western presidential home.  If meeting onsite - west parking lot.",
+    "meetingNotes": "meet at King Soopers, 3495 South University"
+  },
+  {
+    "location": "Walker Ranch - Homestead Trail",
+    "address": "7325 Flagstaff Road",
+    "town": "Boulder",
+    "comments": "Restrooms.  5.4 miles, out and back",
+    "meetingNotes": ""
+  },
+  {
+    "location": "Washington Park",
+    "address": "701 South Franklin Street",
+    "town": "Denver",
+    "comments": "Restrooms",
+    "meetingNotes": "recreation center"
+  },
+  {
+    "location": "Waterton Canyon",
+    "address": "11500 Waterton Road",
+    "town": "Littleton",
+    "comments": "Restrooms",
+    "meetingNotes": ""
+  },
+  {
+    "location": "West Chicago Lakes",
+    "address": "",
+    "town": "Idaho Springs",
+    "comments": "I-70 to exit 240 (Hwy 103), 13 miles to trailhead, 1st dirt road on right - autumn.  Echo Lake trailhead to the Wilderness Bountary, 4.5 miles roundtrip, 1,000 feet elevation gain",
+    "meetingNotes": "Intermittently rocky"
+  },
+  {
+    "location": "White Ranch Park  - West - Rawhide Trail",
+    "address": "2533 Belcher Hill Road",
+    "town": "Golden",
+    "comments": "No restrooms.  Meet at parking lot on Golden Gate Canyon Rd (left on Golden Gate Canyon Rd and right away a left turn into Golden Gate Road parking lot)",
+    "meetingNotes": "Colorado 93 to Golden Gate Canyon (left).  Actual trailhead is via a right on Crawford Gulch (Hwy 57), right on Belcher Hill Road.  Second parking lot on left."
+  },
+  {
+    "location": "White Ranch Park - East",
+    "address": "21827 West 56th Avenue",
+    "town": "Golden",
+    "comments": "Restroom.  US 6 to Colorado Highway 93 to Pine Ridge Rd.  Left on Belcher Hill Road - No shade",
+    "meetingNotes": "US-6 west, to  CO-93 north, left on  Pine Ridge Road"
+  }
+]
