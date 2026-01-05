@@ -22,7 +22,7 @@
     "@babel/core": "^7.22.0",
     "@babel/preset-env": "^7.22.0",
     "@babel/preset-react": "^7.22.0",
-    "babel-loader": "^9.1.2",
+    "babel-loader": "^10.0.0",
     "buffer": "^6.0.3",
     "css-loader": "^6.8.1",
     "electron": "^38.0.0",
