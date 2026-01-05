@@ -6,8 +6,9 @@
   "scripts": {
     "start": "electron .",
     "build": "webpack",
-    "dist": "npm run build && electron-builder",
-    "dist:win": "npm run build && electron-builder --win"
+    "prebuild:dist": "webpack",
+    "dist": "electron-builder",
+    "dist:win": "electron-builder --win"
   },
   "keywords": [
     "olli",

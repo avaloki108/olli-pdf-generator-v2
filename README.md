@@ -11,6 +11,8 @@ An Electron + React desktop application for managing OLLI Walks and Hikes locati
 
 ## To Use
 
+**With npm:**
+
 ```bash
 # Clone this repository
 git clone https://github.com/avaloki108/olli-pdf-generator-v2.git
@@ -22,13 +24,37 @@ npm install
 npm start
 ```
 
+**With pnpm:**
+
+```bash
+# Clone this repository
+git clone https://github.com/avaloki108/olli-pdf-generator-v2.git
+# Go into the repository
+cd olli-pdf-generator-v2
+# Install dependencies
+pnpm install
+# Run the app
+pnpm start
+```
+
 ## Build for Distribution
+
+**With npm:**
 
 ```bash
 # Build the React app
 npm run build
 # Create Windows installer
 npm run dist:win
+```
+
+**With pnpm:**
+
+```bash
+# Build the React app
+pnpm run build
+# Create Windows installer
+pnpm run dist:win
 ```
 
 ## Excel Import Format
