@@ -17,6 +17,8 @@ This guide will help you upload the files from `C:\Users\jason\Documents\olli-pd
    ```bash
    cd C:\Users\jason\Documents\olli-pdf-generator-v2
    ```
+   
+   *(Replace with your actual project path if different)*
 
 3. **Initialize Git (if not already initialized):**
    ```bash
@@ -27,6 +29,8 @@ This guide will help you upload the files from `C:\Users\jason\Documents\olli-pd
    ```bash
    git remote add origin https://github.com/avaloki108/olli-pdf-generator-v2.git
    ```
+   
+   *(This is the URL for this specific repository)*
 
 5. **Pull the latest changes from GitHub:**
    ```bash
@@ -59,7 +63,7 @@ This guide will help you upload the files from `C:\Users\jason\Documents\olli-pd
    - Choose a location to clone it
 
 3. **Copy your files:**
-   - Copy all files from `C:\Users\jason\Documents\olli-pdf-generator-v2`
+   - Copy all files from `C:\Users\jason\Documents\olli-pdf-generator-v2` *(or your actual project location)*
    - Paste them into the cloned repository folder
    - **Do NOT copy the `.git` folder** if one exists in your local directory
 
