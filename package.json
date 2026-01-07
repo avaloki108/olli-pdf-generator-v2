@@ -26,7 +26,7 @@
     "buffer": "^6.0.3",
     "css-loader": "^6.8.1",
     "electron": "^38.0.0",
-    "electron-builder": "^26.0.0",
+    "electron-builder": "^26.4.0",
     "html-webpack-plugin": "^5.5.3",
     "process": "^0.11.10",
     "style-loader": "^3.3.3",
