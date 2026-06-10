@@ -8,6 +8,7 @@ An Electron + React desktop application for managing OLLI Walks and Hikes locati
 - **Excel Import**: Import locations from Excel files (.xlsx, .xls, .csv)
 - **PDF Generation**: Generate formatted PDF schedules for walks and hikes
 - **Monthly Planning**: Plan walks (Mondays) and hikes (Thursdays) by month
+- **Auto-Save**: Schedules are saved automatically as you type — close the app and pick up where you left off. A "Your Saved Schedules" list lets you reopen any month to fix details, even after printing.
 
 ## To Use
 
