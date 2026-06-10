@@ -16,6 +16,9 @@ function App() {
   // Location management state
   const [showLocationManager, setShowLocationManager] = useState(false);
   const [editingLocation, setEditingLocation] = useState(null);
+  const [editDraft, setEditDraft] = useState(null);
+  const [locationSearch, setLocationSearch] = useState('');
+  const [showAddForm, setShowAddForm] = useState(false);
   const [newLocation, setNewLocation] = useState({
     location: '',
     address: '',
@@ -272,7 +275,7 @@ function App() {
       alert('Please enter a location name');
       return;
     }
-    
+
     const updatedLocations = sortLocations([...locations, { ...newLocation }]);
     setLocations(updatedLocations);
     setNewLocation({
@@ -282,52 +285,39 @@ function App() {
       comments: '',
       meetingNotes: ''
     });
+    setShowAddForm(false);
     alert('Location added successfully!');
   };
 
-  const handleEditLocation = (location) => {
+  const handleStartEdit = (location) => {
     setEditingLocation(location);
-    setNewLocation({ ...location });
+    setEditDraft({ ...location });
   };
 
-  const handleUpdateLocation = () => {
-    if (!newLocation.location.trim()) {
+  const handleSaveEdit = () => {
+    if (!editDraft.location.trim()) {
       alert('Please enter a location name');
       return;
     }
-    
-    const updatedLocations = locations.map(loc => 
-      loc === editingLocation ? { ...newLocation } : loc
+
+    const updatedLocations = locations.map(loc =>
+      loc === editingLocation ? { ...editDraft } : loc
     );
     setLocations(sortLocations(updatedLocations));
     setEditingLocation(null);
-    setNewLocation({
-      location: '',
-      address: '',
-      town: '',
-      comments: '',
-      meetingNotes: ''
-    });
-    alert('Location updated successfully!');
+    setEditDraft(null);
   };
 
   const handleDeleteLocation = (location) => {
     if (window.confirm(`Are you sure you want to delete "${location.location}"?`)) {
       const updatedLocations = locations.filter(loc => loc !== location);
       setLocations(updatedLocations);
-      alert('Location deleted successfully!');
     }
   };
 
   const handleCancelEdit = () => {
     setEditingLocation(null);
-    setNewLocation({
-      location: '',
-      address: '',
-      town: '',
-      comments: '',
-      meetingNotes: ''
-    });
+    setEditDraft(null);
   };
 
   const handleResetToDefaults = () => {
@@ -619,52 +609,30 @@ function App() {
 
       {showLocationManager ? (
         <main className="location-manager">
-          <h2>Location Database Manager</h2>
-          <p className="location-count">Total Locations: {locations.length}</p>
-          
-          <div className="location-form">
-            <h3>{editingLocation ? 'Edit Location' : 'Add New Location'}</h3>
-            <input
-              type="text"
-              placeholder="Location Name *"
-              value={newLocation.location}
-              onChange={(e) => setNewLocation({ ...newLocation, location: e.target.value })}
-            />
-            <input
-              type="text"
-              placeholder="Street Address"
-              value={newLocation.address}
-              onChange={(e) => setNewLocation({ ...newLocation, address: e.target.value })}
-            />
-            <input
-              type="text"
-              placeholder="Town"
-              value={newLocation.town}
-              onChange={(e) => setNewLocation({ ...newLocation, town: e.target.value })}
-            />
-            <textarea
-              placeholder="Comments"
-              value={newLocation.comments}
-              onChange={(e) => setNewLocation({ ...newLocation, comments: e.target.value })}
-            />
-            <textarea
-              placeholder="Meeting Location Notes"
-              value={newLocation.meetingNotes}
-              onChange={(e) => setNewLocation({ ...newLocation, meetingNotes: e.target.value })}
-            />
-            <div className="form-buttons">
-              {editingLocation ? (
-                <>
-                  <button onClick={handleUpdateLocation}>Update Location</button>
-                  <button onClick={handleCancelEdit}>Cancel</button>
-                </>
-              ) : (
-                <button onClick={handleAddLocation}>Add Location</button>
-              )}
-            </div>
+          <div className="lm-header">
+            <h2>Location Database</h2>
+            <p className="location-count">{locations.length} locations</p>
           </div>
 
-          <div className="location-actions">
+          <div className="lm-toolbar">
+            <div className="lm-search-wrap">
+              <input
+                type="text"
+                className="lm-search"
+                placeholder="Search locations..."
+                value={locationSearch}
+                onChange={(e) => setLocationSearch(e.target.value)}
+              />
+              {locationSearch && (
+                <button className="lm-search-clear" onClick={() => setLocationSearch('')}>Clear</button>
+              )}
+            </div>
+            <button
+              className="lm-add-btn"
+              onClick={() => { setShowAddForm(!showAddForm); setEditingLocation(null); setEditDraft(null); }}
+            >
+              {showAddForm ? 'Cancel' : '+ Add Location'}
+            </button>
             <input
               type="file"
               ref={fileInputRef}
@@ -673,30 +641,124 @@ function App() {
               style={{ display: 'none' }}
             />
             <button onClick={() => fileInputRef.current.click()} className="import-btn">
-              Import from Excel
+              Import Excel
             </button>
             <button onClick={handleResetToDefaults} className="reset-btn">
-              Reset to Default Locations
+              Reset Defaults
             </button>
           </div>
 
-          <div className="location-list">
-            <h3>All Locations</h3>
-            {locations.map((loc, index) => (
-              <div key={index} className="location-item">
-                <div className="location-info">
-                  <h4>{loc.location}</h4>
-                  <p><strong>Address:</strong> {loc.address || 'N/A'}</p>
-                  <p><strong>Town:</strong> {loc.town || 'N/A'}</p>
-                  {loc.comments && <p><strong>Comments:</strong> {loc.comments}</p>}
-                  {loc.meetingNotes && <p><strong>Meeting Notes:</strong> {loc.meetingNotes}</p>}
-                </div>
-                <div className="location-actions">
-                  <button onClick={() => handleEditLocation(loc)}>Edit</button>
-                  <button onClick={() => handleDeleteLocation(loc)} className="delete-btn">Delete</button>
-                </div>
-              </div>
-            ))}
+          {showAddForm && (
+            <div className="lm-add-form">
+              <input
+                type="text"
+                placeholder="Location Name *"
+                value={newLocation.location}
+                onChange={(e) => setNewLocation({ ...newLocation, location: e.target.value })}
+              />
+              <input
+                type="text"
+                placeholder="Street Address"
+                value={newLocation.address}
+                onChange={(e) => setNewLocation({ ...newLocation, address: e.target.value })}
+              />
+              <input
+                type="text"
+                placeholder="Town"
+                value={newLocation.town}
+                onChange={(e) => setNewLocation({ ...newLocation, town: e.target.value })}
+              />
+              <textarea
+                placeholder="Comments"
+                value={newLocation.comments}
+                onChange={(e) => setNewLocation({ ...newLocation, comments: e.target.value })}
+              />
+              <textarea
+                placeholder="Meeting Location Notes"
+                value={newLocation.meetingNotes}
+                onChange={(e) => setNewLocation({ ...newLocation, meetingNotes: e.target.value })}
+              />
+              <button onClick={handleAddLocation}>Add Location</button>
+            </div>
+          )}
+
+          <div className="lm-table-wrap">
+            <table className="lm-table">
+              <thead>
+                <tr>
+                  <th className="lm-th-name">Location</th>
+                  <th className="lm-th-addr">Address</th>
+                  <th className="lm-th-town">Town</th>
+                  <th className="lm-th-notes">Comments / Notes</th>
+                  <th className="lm-th-actions"></th>
+                </tr>
+              </thead>
+              <tbody>
+                {locations
+                  .filter(loc => {
+                    if (!locationSearch.trim()) return true;
+                    const q = locationSearch.toLowerCase();
+                    return (
+                      loc.location.toLowerCase().includes(q) ||
+                      (loc.address || '').toLowerCase().includes(q) ||
+                      (loc.town || '').toLowerCase().includes(q) ||
+                      (loc.comments || '').toLowerCase().includes(q) ||
+                      (loc.meetingNotes || '').toLowerCase().includes(q)
+                    );
+                  })
+                  .map((loc, index) => {
+                    const isEditing = loc === editingLocation;
+                    return (
+                      <tr key={index} className={isEditing ? 'lm-row-editing' : ''}>
+                        {isEditing ? (
+                          <>
+                            <td><input className="lm-inline-input" value={editDraft.location} onChange={(e) => setEditDraft({ ...editDraft, location: e.target.value })} /></td>
+                            <td><input className="lm-inline-input" value={editDraft.address} onChange={(e) => setEditDraft({ ...editDraft, address: e.target.value })} /></td>
+                            <td><input className="lm-inline-input" value={editDraft.town} onChange={(e) => setEditDraft({ ...editDraft, town: e.target.value })} /></td>
+                            <td>
+                              <input className="lm-inline-input" placeholder="Comments" value={editDraft.comments} onChange={(e) => setEditDraft({ ...editDraft, comments: e.target.value })} />
+                              <input className="lm-inline-input lm-inline-notes" placeholder="Meeting notes" value={editDraft.meetingNotes} onChange={(e) => setEditDraft({ ...editDraft, meetingNotes: e.target.value })} />
+                            </td>
+                            <td className="lm-td-actions">
+                              <button className="lm-btn-save" onClick={handleSaveEdit}>Save</button>
+                              <button className="lm-btn-cancel" onClick={handleCancelEdit}>Cancel</button>
+                            </td>
+                          </>
+                        ) : (
+                          <>
+                            <td className="lm-td-name"><strong>{loc.location}</strong></td>
+                            <td className="lm-td-addr">{loc.address || '—'}</td>
+                            <td className="lm-td-town">{loc.town || '—'}</td>
+                            <td className="lm-td-notes">
+                              {loc.comments || ''}
+                              {loc.comments && loc.meetingNotes ? ' ' : ''}
+                              {loc.meetingNotes ? <span className="lm-notes-tag">{loc.meetingNotes}</span> : ''}
+                            </td>
+                            <td className="lm-td-actions">
+                              <button onClick={() => handleStartEdit(loc)}>Edit</button>
+                              <button onClick={() => handleDeleteLocation(loc)} className="delete-btn">Delete</button>
+                            </td>
+                          </>
+                        )}
+                      </tr>
+                    );
+                  })}
+              </tbody>
+            </table>
+            {(() => {
+              const count = locations.filter(loc => {
+                if (!locationSearch.trim()) return true;
+                const q = locationSearch.toLowerCase();
+                return (
+                  loc.location.toLowerCase().includes(q) ||
+                  (loc.address || '').toLowerCase().includes(q) ||
+                  (loc.town || '').toLowerCase().includes(q) ||
+                  (loc.comments || '').toLowerCase().includes(q) ||
+                  (loc.meetingNotes || '').toLowerCase().includes(q)
+                );
+              }).length;
+              return locationSearch.trim() ? <p className="lm-results-count">Showing {count} of {locations.length} locations</p> : null;
+            })()}
           </div>
         </main>
       ) : (
